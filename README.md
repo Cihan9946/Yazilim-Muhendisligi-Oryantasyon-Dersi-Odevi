@@ -1,1 +1,1 @@
-# Yazilim-Muhendisligi-Oryantasyon-Dersi-Odevi
+# Yazilim-Muhendisligi-Oryantasyon-Dersi-Odevi.

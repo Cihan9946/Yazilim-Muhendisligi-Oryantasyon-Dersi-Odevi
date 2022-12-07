@@ -1,0 +1,35 @@
+//ASAL SAYI BULAN PROGRAM
+package Deneme2;
+
+import java.util.Scanner;
+
+public class AsalSayilar {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+        int input ;
+        boolean asal  = true ;
+        do  {
+	
+System.out.println("LTFEN BİR SAYI GİRİNİZ   :");
+input = scan.nextInt();
+
+        }while(input <	 2);
+       
+        for(int  i=2 ;  i	<input;  i++		) {
+        if (input%2==0) {
+        asal= false;
+        break;
+	}
+
+}
+   if(asal) {    
+	System.out.println("GİRİLEN SAYI :"  +input + "asaldır");
+   }else {
+	   System.out.println("GİRİLEN SAYI  :"+input  + "asal değildir");
+
+	}  
+        
+}
+}

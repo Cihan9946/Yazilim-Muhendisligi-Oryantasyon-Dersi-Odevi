@@ -1,0 +1,17 @@
+//mili kmye çevirn program
+
+
+package Programlamaiki;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class HazirlikIki {
+
+	public static void main(String[] args) {
+	
+		double mil=100 ;
+	    final double KILOMETRE_MIL_KATSAYISI=1.609;
+	    double kilometre;
+	    kilometre = mil*KILOMETRE_MIL_KATSAYISI;
+	    System.out.println("sonuç"  + kilometre);

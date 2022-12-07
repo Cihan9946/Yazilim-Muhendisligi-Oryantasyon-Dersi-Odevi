@@ -1,0 +1,20 @@
+package Programlamaiki;
+
+import java.util.Scanner;
+
+public class CurrentMillesTime {
+
+	public static void main(String[] args) {
+	
+//2 sayının toplamını tahmin etme
+	
+        int sayi1 , sayi2 ,sonuc,tahmin;
+	sayi1 = (int) (Math.random()*10);
+	sayi2 = (int)(System.currentTimeMillis()/3 %9);
+	Scanner scan = new Scanner(System.in);
+	System.out.println("iki sayi toplamı nedir" );
+	tahmin=scan.nextInt();
+	sonuc = sayi1+sayi2;
+	System.out.println("sonucunuz" +sonuc);
+}
+}
